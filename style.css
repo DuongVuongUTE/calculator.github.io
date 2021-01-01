@@ -75,3 +75,39 @@ table{
         width: 102px;
     }
 }
+@media screen and (max-height: 640px) {
+    .text {
+        width: 210px;
+        height: 70px;
+        font-size: 16px;
+
+    }
+    .btn {
+        background-color: #bff8e9;
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .bt-col{
+        width: 102px;
+    }
+}
+@media screen and (max-height: 350px) {
+    .text {
+        width: 170px;
+        height: 50px;
+        font-size: 13px;
+
+    }
+    .btn {
+        background-color: #bff8e9;
+        width: 40px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .bt-col{
+        width: 82px;
+    }
+}
